@@ -47,3 +47,7 @@ Het hoofdprogramma laadt het getrainde model en de opgeslagen coördinaten om de
   * parking_slots.json - Configuratiebestand met de coördinaten van de parkeervakken.
 * models/
   * parking_model.pth - Het getrainde modelbestand.
+
+
+## Prestaties
+Het systeem behaalt momenteel een nauwkeurigheid van circa 80-85%. Factoren zoals perspectief, schaduwvorming en de precisie van de handmatige annotaties hebben een directe invloed op het uiteindelijke resultaat.
