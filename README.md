@@ -38,7 +38,7 @@ Het hoofdprogramma laadt het getrainde model en de opgeslagen coördinaten om de
 * De resultaten worden visueel weegegeven met groene (vrij) of rode (bezet) kaders.
 * Per vak wordt de status (V/B) en de zekerheid van het model getoond.
 
-##Projectstructuur
+## Projectstructuur
 * src/
   * picker.py - Tool voor het definiëren van parkeervakken.
   * train_torch.py - Script voor het trainen van het model.
