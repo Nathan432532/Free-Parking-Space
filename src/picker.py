@@ -24,7 +24,7 @@ def mouse_click(event, x, y, flags, param):
             removed_slot = parking_slots.pop()
             print(f"Parkeerplaats verwijderd: {removed_slot}")
 
-img_path = 'data/raw/nearly_empty/test.jpg'
+img_path = 'data/raw/nearly_empty/test1.jpg'
 
 cv2.namedWindow('Parking Slot Picker: links=punt, rechts=undo, s=opslaan')
 cv2.setMouseCallback('Parking Slot Picker: links=punt, rechts=undo, s=opslaan', mouse_click)
@@ -46,7 +46,7 @@ while True:
     key = cv2.waitKey(1)
 
     if key == ord('s'):
-        with open('config/test/parking_slots.json', 'w') as f:
+        with open('config/parking_slots.json', 'w') as f:
             json.dump(parking_slots, f, indent=4)
         print("Parkeerplaatsen opgeslagen")
         break
