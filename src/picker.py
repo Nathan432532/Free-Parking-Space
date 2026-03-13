@@ -51,7 +51,7 @@ while True:
         print("Parkeerplaatsen opgeslagen in config/parking_slots.json")
         break
 
-    elif key == 27:  # ESC-toets
+    elif key == 27:  # ESC toets om te stoppen
         print("Afgebroken door gebruiker.")
         break
 
